@@ -1,2 +1,77 @@
-# Projet-atelier-jeu
-Présentation du projet
+# Support Service - Logiciel de Demande d'Assistance (Helpdesk)
+
+Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateurs, il est développé en PHP et réalisé dans le cadre d'un stage à l'entreprise "L'atelier des Jeux". Il permet aux utilisateurs de soumettre des demandes d'assistance et de donne la possibilité aux techniciens de les gérer.
+
+## Contexte
+
+"L'atelier des Jeux" est une société spécialisée dans la création de jeux (jeux vidéo, jeux de plateau, jeux de rôle, jeux de carte, etc.) et emploie une cinquantaine de personnes[cite: 1, 2].  J'ai été intégré au service de maintenance informatique et d'aide aux utilisateurs[cite: 3]. Mon tuteur m'a confié la réalisation de ce logiciel de demande d'assistance en plus de mes missions de maintenance[cite: 4].
+
+**Image :** (Insérer ici une image du logo de "L'atelier des Jeux" -  `./images/logo_atelier_jeux.png`  Par exemple. Créez ce fichier image dans votre repo)
+
+## Fonctionnalités
+
+Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du projet)[cite: 16, 17, 18, 19, 20, 21, 22]:
+
+* **Page d'accueil**
+* **Page de demande d'assistance pour les utilisateurs**[cite: 17].
+    * Un menu déroulant permet de catégoriser la demande d'assistance selon le problème[cite: 18].
+* **Système de connexion login/mdp** pour l'accès à la gestion des tickets[cite: 19].
+* **Panneau d'administration** présentant les tickets avec leurs statuts (avec couleur selon le statut), organisé selon le type de demande d'assistance[cite: 19].
+    * Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration[cite: 20].
+* **Page de consultation d'un ticket** (détail et modification)[cite: 21].
+* **Page de création d'un compte de technicien**[cite: 21].
+* **Mise en place d'un système de log**[cite: 22].
+* **Mise en place d'un système de sécurité**[cite: 22].
+* **Mise en page propre et soignée** (utilisation de CSS)[cite: 22].
+* **Site responsive**[cite: 22].
+
+**Image :** (Insérer ici une capture d'écran de la page de demande d'assistance - `./images/demande_assistance.png` par exemple)
+
+## Gestion des Tickets
+
+Les demandes d'assistance sont appelées "tickets" et passent par trois états[cite: 7, 8]:
+
+* **Ouvert :** Lorsqu'une demande utilisateur est faite[cite: 8].
+* **En cours :** Lorsqu'un technicien prend en charge le ticket[cite: 8].
+* **Fermé :** Lorsque l'intervention est terminée[cite: 8].
+
+Pour créer un ticket, l'utilisateur doit fournir les informations nécessaires à la gestion de l'incident. Un numéro de ticket unique est ensuite fourni à l'utilisateur[cite: 9, 10].
+
+**Image :** (Insérer ici une capture d'écran du panneau d'administration avec la liste des tickets - `./images/panneau_admin_tickets.png` par exemple)
+
+## Sécurité
+
+L'accès à la gestion des tickets est sécurisé pour que seuls les techniciens puissent y accéder[cite: 11].
+
+## Installation
+
+Pour installer et exécuter ce projet, suivez les étapes suivantes :
+
+1.  Clonez le dépôt GitHub :  `git clone <URL_DU_DEPOT>`
+2.  Importez la base de données (fichier .sql fourni).
+3.  Configurez les paramètres de connexion à la base de données dans les fichiers de configuration (à préciser).
+4.  Accédez au site web via un serveur web (Apache, Nginx, etc.).
+
+## Technologies Utilisées
+
+* PHP
+* MySQL
+* HTML
+* CSS
+* JavaScript (si applicable)
+
+## Améliorations Possibles
+
+* Ajouter un système de notification par email.
+* Mettre en place un système de recherche et de filtrage plus avancé pour les tickets.
+* Intégrer une base de connaissances pour aider à la résolution des problèmes courants.
+
+## Auteur
+
+Votre Nom
+
+## Grille d'évaluation
+
+Voici la grille d'évaluation utilisée pour ce projet :
+
+**Image :** (Insérer ici l'image de la grille d'évaluation - `./images/grille_evaluation.png`)
