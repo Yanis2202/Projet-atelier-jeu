@@ -26,15 +26,16 @@ Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du 
 * **Mise en page propre et soignée** (utilisation du CSS).
 * **Site responsive**  (page adaptable à tout type d'écran).
 
-**Image :** (Insérer ici une capture d'écran de la page de demande d'assistance - `./images/demande_assistance.png` par exemple)
+![image](https://github.com/user-attachments/assets/354e5aba-72b6-46cb-8212-6d36e8fe5d2c)
+
 
 ## Gestion des Tickets
 
-Les demandes d'assistance sont appelées "tickets" et passent par trois états[cite: 7, 8]:
+Les demandes d'assistance sont appelées "tickets" et passent par trois états :
 
-* **Ouvert :** Lorsqu'une demande utilisateur est faite[cite: 8].
-* **En cours :** Lorsqu'un technicien prend en charge le ticket[cite: 8].
-* **Fermé :** Lorsque l'intervention est terminée[cite: 8].
+* **Ouvert :** Lorsqu'une demande est faite par un utilisateur.
+* **En cours :** Lorsqu'un technicien prend en charge le ticket.
+* **Fermé :** Lorsque l'intervention est terminée.
 
 Pour créer un ticket, l'utilisateur doit fournir les informations nécessaires à la gestion de l'incident. Un numéro de ticket unique est ensuite fourni à l'utilisateur[cite: 9, 10].
 
