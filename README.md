@@ -4,29 +4,83 @@ Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateu
 
 <br>
 
-## Contexte
+## Contexte :
 
-"L'atelier des Jeux" est une société spécialisée dans la création de jeux (jeux vidéo, jeux de plateau, jeux de rôle, jeux de carte, etc.) et emploie une cinquantaine de personnes.  Dans ce projet, j'ai été intégré au service de maintenance informatique et d'aide aux utilisateurs. Mon tuteur m'a confié la réalisation de ce logiciel de demande d'assistance en plus de mes missions de maintenance.
+"L'atelier des Jeux" est une société spécialisée dans la création de jeux (jeux vidéo, jeux de plateau, jeux de rôle, jeux de carte, etc.) et emploie une cinquantaine de personnes.  Dans ce projet, j'ai été intégré au service de maintenance informatique et d'aide aux utilisateurs. Mon tuteur m'a confié la réalisation de ce logiciel de demande d'assistance avec mon équipe en plus de mes missions de maintenance.
 
 ![image](https://github.com/user-attachments/assets/ae488b94-2eed-4da3-9c82-7c4d5d66f257)  ![image](https://github.com/user-attachments/assets/32c6e4ff-692d-48c0-98d6-97a9f6944961)
 
 <br>
 
-## Fonctionnalités
+## Fonctionnalités mises en place :
 
 Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du projet) :
 
 * **Page d'accueil** (page présentable et façile a comprendre).
 * **Page de demande d'assistance pour les utilisateurs**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème).
-* **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration))).
+* **Page de création et connexion vers compte de technicien** (pour ajourter facilement les nouveau technicien et leurs permettre de ce connecter).
+* **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration)).
 * **Page de consultation d'un ticket** (détail et modification).
-* **Page de création d'un compte de technicien** (pour ajourter facilement les nouveau technicien).
 * **Mise en place d'un système de log** (pour identifier les créateur de demmande d'assistance).
 * **Mise en place d'un système de sécurité** (afin d'éviter les piratages ou virus).
 * **Mise en page propre et soignée** (utilisation du CSS).
 * **Site responsive**  (page adaptable à tout type d'écran).
+* **Vérification de fausses adresse mail** (le signe "@" dois être mentionné).
 
-![image](https://github.com/user-attachments/assets/354e5aba-72b6-46cb-8212-6d36e8fe5d2c)
+<br>
+
+# <ins> Explication</ins>	:
+
+<br>
+
+## Page d'acceuil : 
+
+La page d'accueil du système d'assistance offre un point d'entrée clair pour les utilisateurs et les techniciens. Elle présente un message de bienvenue et deux options principales :
+
+* **Faire une demande d'assistance :** Permet aux utilisateurs de soumettre un nouveau ticket d'assistance.
+* **Connexion Technicien :** Dirige les techniciens vers l'interface de gestion des tickets.
+<Br>
+
+![Page d'acceuil](https://github.com/user-attachments/assets/327030d5-664a-40a5-be6c-05e8635ccdc3)
+
+<br>
+
+## Page de demande d'assistance pour les utilisateurs : 
+
+Cette page permet aux utilisateurs de soumettre de nouvelles demandes d'assistance.  Elle inclut un formulaire où l'utilisateur doit fournir les informations nécessaires pour décrire son problème.  L'un des éléments important de ce formulaire est un *menu déroulant* qui permet à l'utilisateur de *catégoriser sa demande d'assistance*, facilitant ainsi son traitement par les technicien.
+
+Les champs du formulaire comprennent :
+
+* Votre nom
+* Votre email
+* Choisissez une catégorie (menu déroulant)
+* Description du problème
+
+<br>
+
+![Faire une demmande d'assistance](https://github.com/user-attachments/assets/e7ee26e5-33c3-41f8-81aa-5d8086c5d412)
+
+<br>
+
+Un protocole de vérification d'adresse mail incorrect a aussi été mis en place pour éviter que l'utilisateur ne rentre une mauvaise adresse mail et ne reçois donc jamais de message d'assistance : 
+
+<br>
+
+![Adresse mail incorrect](https://github.com/user-attachments/assets/f63bc862-f30d-443f-adba-7ce2d41cd431)
+
+<br>
+
+## Page de création de compte technicien : 
+
+Cette page joue un rôle essentiel dans la gestion des utilisateurs, elle permet l'enregistrement de nouveaux techniciens qui pourront donc avoir accès à toute la gestion des tickets.  Elle assure que seuls les membres autorisés de l'équipe de support ont accès aux fonctionnalités d'administration et de gestion des tickets.
+
+L'accès à cette page se fait via le lien "Créer un compte technicien" présent sur la page de connexion.  Le formulaire de création de compte permet de recueillir les informations d'identification nécessaires (nom d'utilisateur, mot de passe, etc.) pour chaque technicien.  Cela facilite l'ajout et la suppression de comptes, simplifiant ainsi la gestion des accès au système.
+
+![Connexion technicien](https://github.com/user-attachments/assets/637e3b28-84d3-464e-b4e4-d9d1ce45fcd1)
+
+<br> 
+
+![Création compte technicien](https://github.com/user-attachments/assets/9f6d526e-d4cd-412e-aca7-c72c5a5319d1)
 
 
 ## Gestion des Tickets
