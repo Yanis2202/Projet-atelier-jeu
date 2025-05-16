@@ -14,20 +14,17 @@ Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateu
 
 ## Fonctionnalités
 
-Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du projet)[cite: 16, 17, 18, 19, 20, 21, 22]:
+Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du projet) :
 
-* **Page d'accueil**
-* **Page de demande d'assistance pour les utilisateurs**[cite: 17].
-    * Un menu déroulant permet de catégoriser la demande d'assistance selon le problème[cite: 18].
-* **Système de connexion login/mdp** pour l'accès à la gestion des tickets[cite: 19].
-* **Panneau d'administration** présentant les tickets avec leurs statuts (avec couleur selon le statut), organisé selon le type de demande d'assistance[cite: 19].
-    * Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration[cite: 20].
-* **Page de consultation d'un ticket** (détail et modification)[cite: 21].
-* **Page de création d'un compte de technicien**[cite: 21].
-* **Mise en place d'un système de log**[cite: 22].
-* **Mise en place d'un système de sécurité**[cite: 22].
-* **Mise en page propre et soignée** (utilisation de CSS)[cite: 22].
-* **Site responsive**[cite: 22].
+* **Page d'accueil** (page présentable et façile a comprendre).
+* **Page de demande d'assistance pour les utilisateurs**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème).
+* **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration))).
+* **Page de consultation d'un ticket** (détail et modification).
+* **Page de création d'un compte de technicien** (pour ajourter facilement les nouveau technicien).
+* **Mise en place d'un système de log** (pour identifier les créateur de demmande d'assistance).
+* **Mise en place d'un système de sécurité** (afin d'éviter les piratages ou virus).
+* **Mise en page propre et soignée** (utilisation du CSS).
+* **Site responsive**  (page adaptable à tout type d'écran).
 
 **Image :** (Insérer ici une capture d'écran de la page de demande d'assistance - `./images/demande_assistance.png` par exemple)
 
