@@ -17,15 +17,15 @@ Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateu
 Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du projet) :
 
 * **Page d'accueil** (page présentable et façile a comprendre).
-* **Page de demande d'assistance pour les utilisateurs**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème).
-* **Page de création et connexion vers compte de technicien** (pour ajourter facilement les nouveau technicien et leurs permettre de ce connecter).
+* **Page de demande d'assistance pour les utilisateurs avec vérification de fausses adresse mail**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème, (le signe "@" dois être mentionné pour pouvoir valider la demande d'assistance).
+* **Page de création et connexion vers compte de technicien** (pour ajourter facilement les nouveau technicien et leurs permettre de ce connecter). TERMINE LA !
 * **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration)).
 * **Page de consultation d'un ticket** (détail et modification).
 * **Mise en place d'un système de log** (pour identifier les créateur de demmande d'assistance).
 * **Mise en place d'un système de sécurité** (afin d'éviter les piratages ou virus).
 * **Mise en page propre et soignée** (utilisation du CSS).
 * **Site responsive**  (page adaptable à tout type d'écran).
-* **Vérification de fausses adresse mail** (le signe "@" dois être mentionné).
+* **
 
 <br>
 
@@ -41,7 +41,8 @@ La page d'accueil du système d'assistance offre un point d'entrée clair pour l
 * **Connexion Technicien :** Dirige les techniciens vers l'interface de gestion des tickets.
 <Br>
 
-![Page d'acceuil](https://github.com/user-attachments/assets/327030d5-664a-40a5-be6c-05e8635ccdc3)
+![444455544-327030d5-664a-40a5-be6c-05e8635ccdc3](https://github.com/user-attachments/assets/f4fe3ec5-dc16-4d0e-81d0-27b32b781bb9)
+
 
 <br>
 
@@ -58,7 +59,9 @@ Les champs du formulaire comprennent :
 
 <br>
 
-![Faire une demmande d'assistance](https://github.com/user-attachments/assets/e7ee26e5-33c3-41f8-81aa-5d8086c5d412)
+![444463284-e7ee26e5-33c3-41f8-81aa-5d8086c5d412](https://github.com/user-attachments/assets/2bac13fa-54cd-4cf3-bb95-ddf47caa32ba)
+
+
 
 <br>
 
