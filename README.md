@@ -17,7 +17,7 @@ Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateu
 Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du projet) :
 
 * **Page d'accueil** (page présentable et façile a comprendre).
-* **Page de demande d'assistance pour les utilisateurs avec vérification de fausses adresse mail**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème, (le signe "@" dois être mentionné pour pouvoir valider la demande d'assistance).
+* **Page de demande d'assistance pour les utilisateurs avec vérification de fausses adresse mail et confirmation de demande enregistré**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème, le signe "@" dois être mentionné pour pouvoir valider la demande d'assistance puis enfin, un message de confirmation apparaît pour valider l'envoie de la demande).
 * **Page de création et connexion vers compte de technicien** (pour ajourter facilement les nouveau technicien et leurs permettre de ce connecter). TERMINE LA !
 * **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration)).
 * **Page de consultation d'un ticket** (détail et modification).
@@ -72,6 +72,13 @@ Un protocole de vérification d'adresse mail incorrect a aussi été mis en plac
 ![Adresse mail incorrect](https://github.com/user-attachments/assets/f63bc862-f30d-443f-adba-7ce2d41cd431)
 
 <br>
+
+Pour terminer, nous avons mis en place un message de confirmation qui, une fois toutes les information d'assistance bien remplie, informe l'utilisateur sur le fait que sa demande a bien été envoyé : 
+
+<br>
+
+![Demande a bien été enregistrer](https://github.com/user-attachments/assets/9d767c4f-ace4-475e-9e9b-3a70179f3e3f)
+
 
 ## Page de création de compte technicien : 
 
