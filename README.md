@@ -19,8 +19,8 @@ Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du 
 * **Page d'accueil** (page présentable et façile a comprendre).
 * **Page de demande d'assistance pour les utilisateurs avec vérification de fausses adresse mail et confirmation de demande enregistré**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème, le signe "@" dois être mentionné pour pouvoir valider la demande d'assistance puis enfin, un message de confirmation apparaît pour valider l'envoie de la demande).
 * **Page de création et connexion vers compte de technicien** (pour ajourter facilement les nouveau technicien et leurs permettre de ce connecter).
-* **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration)). FINIS ICI !
-* **Page de consultation d'un ticket** (détail et modification).
+* **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration)). 
+* **Page de consultation et modification d'un ticket** (détail et modification du status). FINIS ICI !
 * **Mise en place d'un système de log** (pour identifier les créateur de demmande d'assistance).
 * **Mise en place d'un système de sécurité** (afin d'éviter les piratages ou virus).
 * **Mise en page propre et soignée** (utilisation du CSS).
@@ -95,7 +95,7 @@ L'accès à cette page se fait via le lien "Créer un compte technicien" présen
 <br>
 
 
-## Gestion des Tickets
+## Gestion des Tickets :
 
 Les demandes d'assistance sont appelées "tickets" et passent par trois états :
 
@@ -109,6 +109,26 @@ Pour créer un ticket, l'utilisateur doit faire une demande d'assistance en four
 
 ![Tiquets d'assistance](https://github.com/user-attachments/assets/3a8c4640-36cf-46d3-acf4-1ee080b6970b)
 
+<br>
+
+## Page de consultation et modification de ticket :
+
+Cette page offre aux techniciens une vue détaillée de chaque ticket de demande d'assistance de tous les utilisateurs et leur permet de communiquer avec eux.  Ses principales fonctionnalités sont :
+
+* **Affichage des détails du ticket :** Toutes les informations fournies par l'utilisateur lors de la création du ticket sont affichées clairement, permettant aux techniciens de comprendre le problème facilement. Cela inclut le numéro du ticket, les informations de contact de l'utilisateur, la catégorie du problème,son nom-prénom et sa description détaillée.
+* **Modification du statut :** Un menu déroulant permet aux techniciens de changer le statut du ticket (par exemple, de "Ouvert" à "En cours" ou "Fermé").  Cette fonctionnalité est essentielle pour suivre la progression de la résolution du problème.
+
+![Gestion du tiicket](https://github.com/user-attachments/assets/4bdf7760-a99f-46bd-a81b-04e63654cf1f)
+
+<br>
+
+* **Confirmation de mise à jour :** Après la modification, un message de confirmation indique que le ticket a été mis à jour avec succès.
+
+<br>
+
+![Ticket mis à jour](https://github.com/user-attachments/assets/d0e09075-badd-4fec-a31b-fc5899e80bb3)
+
+<br>
 
 ## Sécurité
 
