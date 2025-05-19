@@ -92,6 +92,8 @@ L'accès à cette page se fait via le lien "Créer un compte technicien" présen
 
 ![Création compte technicien](https://github.com/user-attachments/assets/9f6d526e-d4cd-412e-aca7-c72c5a5319d1)
 
+<br>
+
 
 ## Gestion des Tickets
 
@@ -101,9 +103,12 @@ Les demandes d'assistance sont appelées "tickets" et passent par trois états :
 * **En cours :** Lorsqu'un technicien prend en charge le ticket.
 * **Fermé :** Lorsque l'intervention est terminée.
 
-Pour créer un ticket, l'utilisateur doit fournir les informations nécessaires à la gestion de l'incident. Un numéro de ticket unique est ensuite fourni à l'utilisateur[cite: 9, 10].
+Pour créer un ticket, l'utilisateur doit faire une demande d'assistance en fournissant bien les informations nécessaires dont le technicien aura besoin pour résoudre l'incident. Le technicien en charge de la gestions des ticket pourra alors résoudre le problème de l'utilisateur puis modifié le statu du ticket (ouvert,en cour, fermé).
 
-**Image :** (Insérer ici une capture d'écran du panneau d'administration avec la liste des tickets - `./images/panneau_admin_tickets.png` par exemple)
+<br>
+
+![Tiquets d'assistance](https://github.com/user-attachments/assets/3a8c4640-36cf-46d3-acf4-1ee080b6970b)
+
 
 ## Sécurité
 
