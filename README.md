@@ -162,7 +162,7 @@ Afin de renforcer la sécurité et de prévenir les piratages et virus, plusieur
 
 <br>
 
-![Création compte impossible](https://github.com/user-attachments/assets/b2eef8f9-3eec-4002-a6b9-57d75fe1e606)
+![Création compte impossible](https://github.com/user-attachments/assets/b2eef8f9-3eec-4002-a6b9-57d75fe1e606) 
 
 
 <br>
@@ -180,12 +180,16 @@ La vm est disponible dans la partie "VM" sur GitHub via un lien de téléchargem
 
 ## Installation
 
+<br>
+
 Pour installer et exécuter ce projet, suivez les étapes suivantes :
 
 1.  Clonez le dépôt GitHub :  `git clone <URL_DU_DEPOT>`
 2.  Importez la base de données (fichier .sql fourni).
 3.  Configurez les paramètres de connexion à la base de données dans les fichiers de configuration (à préciser).
 4.  Accédez au site web via un serveur web (Apache, Nginx, etc.).
+
+<br>
 
 ## Technologies Utilisées
 
@@ -195,12 +199,19 @@ Pour installer et exécuter ce projet, suivez les étapes suivantes :
 * CSS
 * JavaScript (si applicable)
 
+  <br>
+
 ## Améliorations Possibles
+
+<br>
 
 * Ajouter un système de notification par email.
 * Mettre en place un système de recherche et de filtrage plus avancé pour les tickets.
 * Intégrer une base de connaissances pour aider à la résolution des problèmes courants.
+
 ## Participant du projet : 
+
+<br>
 
 Tanquerel Yanis / Thibaut Mélanie / Sueur Lucas
 
