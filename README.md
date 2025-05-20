@@ -154,7 +154,7 @@ La page "Historique des actions (Logs)" permet de consulter ces enregistrements.
 Afin de renforcer la sécurité et de prévenir les piratages et virus, plusieurs mesures ont été introduite :
 
 * **Authentification :** Seuls les techniciens autorisés peuvent accéder au panneau d'administration via un système de connexion login/mdp.
-* **Validation des entrées :** Les données saisies par les utilisateurs et les techniciens sont validées pour des attaques.
+* **Validation des entrées :** Les données saisies par les utilisateurs et les techniciens ont une double confirmation pour éviter les appuies accidentels et les robots.
 * **Gestion des sessions :** Utilisation de sessions sécurisées pour gérer l'accès des utilisateurs, les utilisateurs normale n'ont pas accès au contenu des technicien informatique.
 * **Mises à jour régulières :** Nous mettrons régulièrement le logieciel et ses dépendances à jour pour corriger les failles de sécurité et les beugs.
 
@@ -171,18 +171,17 @@ Afin de renforcer la sécurité et de prévenir les piratages et virus, plusieur
 
 ## Mise en page propre et soignée (utilisation du CSS) :
 
-<br>
-
 Vous pouvez retrouver tout les codes du projet (dont le css) dans la partie "Projet" sur GitHub.
+
+<br>
 
 ## Site responsive (page adaptable à tout type d'écran) :
 
 La vm est disponible dans la partie "VM" sur GitHub via un lien de téléchargement Google drive si vous souhaitez la télécharger pour l'explorer plus en détail.
 
+<br>
 
 ## Installation
-
-<br>
 
 Pour installer et exécuter ce projet, suivez les étapes suivantes :
 
@@ -204,8 +203,6 @@ Pour installer et exécuter ce projet, suivez les étapes suivantes :
   <br>
 
 ## Améliorations Possibles
-
-<br>
 
 * Ajouter un système de notification par email.
 * Mettre en place un système de recherche et de filtrage plus avancé pour les tickets.
