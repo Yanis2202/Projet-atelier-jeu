@@ -209,4 +209,3 @@ Votre Nom
 
 Voici la grille d'évaluation utilisée pour ce projet :
 
-**Image :** (Insérer ici l'image de la grille d'évaluation - `./images/grille_evaluation.png`)
