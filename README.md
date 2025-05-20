@@ -1,16 +1,17 @@
 # Support Service - Logiciel de Demande d'Assistance (Helpdesk)
 
-Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateurs, il est développé en PHP et réalisé dans le cadre d'un stage à l'entreprise "L'atelier des Jeux". Il permet aux utilisateurs de soumettre des demandes d'assistance et de donne la possibilité aux techniciens de les gérer.
+
+Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateurs, il est développé principalement en PHP et réalisé dans le cadre d'un stage à l'entreprise "L'atelier des Jeux". Il permet aux utilisateurs de soumettre des demandes d'assistance et de donne la possibilité aux techniciens de les gérer.
 <br>
 Dans cette présentation, je vous présente ici un CSS diférent que celui du groupe, il s'agit du CSS réalisé personnellement et avant toute modification faite par notre groupe.
 Bonne lecture !
-<br>
+
 
 ## Contexte :
 
 "L'atelier des Jeux" est une société spécialisée dans la création de jeux (jeux vidéo, jeux de plateau, jeux de rôle, jeux de carte, etc.) et emploie une cinquantaine de personnes.  Dans ce projet, j'ai été intégré au service de maintenance informatique et d'aide aux utilisateurs. Mon tuteur m'a confié la réalisation de ce logiciel de demande d'assistance avec mon équipe en plus de mes missions de maintenance.
 
-![image](https://github.com/user-attachments/assets/ae488b94-2eed-4da3-9c82-7c4d5d66f257)  ![image](https://github.com/user-attachments/assets/32c6e4ff-692d-48c0-98d6-97a9f6944961)
+![image](https://github.com/user-attachments/assets/ae488b94-2eed-4da3-9c82-7c4d5d66f257)  ![image](https://github.com/user-attachments/assets/32c6e4ff-692d-48c0-98d6-97a9f6944961)  
 
 <br>
 
@@ -27,13 +28,14 @@ Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du 
 * **Mise en place d'un système de sécurité** (afin d'éviter les piratages ou virus).
 * **Mise en page propre et soignée** (utilisation du CSS).
 * **Site responsive**  (page adaptable à tout type d'écran).
-* **
+
+<br>
+
+![ChatGPT Image 20 mai 2025, 14_20_04](https://github.com/user-attachments/assets/7b83bbb5-7bba-453d-86c0-f95b883b97ba)
 
 <br>
 
 # <ins> Explication</ins>	:
-
-<br>
 
 ## Page d'acceuil : 
 
@@ -50,7 +52,7 @@ La page d'accueil du système d'assistance offre un point d'entrée clair pour l
 
 ## Page de demande d'assistance pour les utilisateurs : 
 
-Cette page permet aux utilisateurs de soumettre de nouvelles demandes d'assistance.  Elle inclut un formulaire où l'utilisateur doit fournir les informations nécessaires pour décrire son problème.  L'un des éléments important de ce formulaire est un *menu déroulant* qui permet à l'utilisateur de *catégoriser sa demande d'assistance*, facilitant ainsi son traitement par les technicien.
+Cette page permet aux utilisateurs de soumettre de nouvelles demandes d'assistance.  Elle inclut un formulaire où l'utilisateur doit fournir les informations nécessaires pour décrire son problème.  L'un des éléments important de ce formulaire est un **menu déroulant** qui permet à l'utilisateur de **catégoriser sa demande d'assistance**, facilitant ainsi son traitement par les technicien.
 
 Les champs du formulaire comprennent :
 
