@@ -1,7 +1,9 @@
 # Support Service - Logiciel de Demande d'Assistance (Helpdesk)
 
 Ce projet est un logiciel de demande d'assistance (Helpdesk) pour les utilisateurs, il est développé en PHP et réalisé dans le cadre d'un stage à l'entreprise "L'atelier des Jeux". Il permet aux utilisateurs de soumettre des demandes d'assistance et de donne la possibilité aux techniciens de les gérer.
-
+<br>
+Dans cette présentation, je vous présente ici un CSS diférent que celui du groupe, il s'agit du CSS réalisé personnellement et avant toute modification faite par notre groupe.
+Bonne lecture !
 <br>
 
 ## Contexte :
@@ -130,7 +132,7 @@ Cette page offre aux techniciens une vue détaillée de chaque ticket de demande
 
 <br>
 
-## Système de logs
+## Système de logs : 
 
 Pour assurer la traçabilité des actions de tout les membres du service (utilisateur, technicien,etc.), notamment ceux de la création de demandes d'assistance, un système de logs a été intégré.  Cela implique l'enregistrement des événements dans un fichier.
 
@@ -140,13 +142,31 @@ La page "Historique des actions (Logs)" permet de consulter ces enregistrements.
 * **Vider les logs :** Fonctionnalité pour supprimer les logs (nécessite d'être connecté en tant que technicien et d'avoir une confirmation après d'un supérieur pour éviter la perte d'informations importantes).
 * **Retour au tableau de bord :** Navigation direct vers la page principale d'administration.
 
-[Image](./images/image.png) *(Page d'affichage des logs)*
+![Voir les logs](https://github.com/user-attachments/assets/f1d016e3-0626-4f97-9859-c3d23c8de402)
+
 
 <br>
 
-## Sécurité
+## Système de sécurité : 
 
-L'accès à la gestion des tickets est sécurisé pour que seuls les techniciens puissent y accéder[cite: 11].
+Afin de renforcer la sécurité et de prévenir les piratages et virus, plusieurs mesures ont été introduite :
+
+* **Authentification :** Seuls les techniciens autorisés peuvent accéder au panneau d'administration via un système de connexion login/mdp.
+* **Validation des entrées :** Les données saisies par les utilisateurs et les techniciens sont validées pour des attaques.
+* **Gestion des sessions :** Utilisation de sessions sécurisées pour gérer l'accès des utilisateurs, les utilisateurs normale n'ont pas accès au contenu des technicien informatique.
+* **Mises à jour régulières :** Nous mettrons régulièrement le logieciel et ses dépendances à jour pour corriger les failles de sécurité et les beugs.
+
+<br> 
+
+  ![Erreur connexion technicien](https://github.com/user-attachments/assets/24bd3aab-35fe-4bb3-aae0-b1fc61281a3b)
+
+<br>
+
+![Création compte impossible](https://github.com/user-attachments/assets/b2eef8f9-3eec-4002-a6b9-57d75fe1e606)
+
+
+<br>
+
 
 ## Installation
 
