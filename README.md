@@ -168,7 +168,14 @@ Afin de renforcer la sécurité et de prévenir les piratages et virus, plusieur
 <br>
 
 ## Mise en page propre et soignée (utilisation du CSS) :
-Vous pouvez retrouver tout les codes du projet (dont le css) dans la partie de GitHub
+
+<br>
+
+Vous pouvez retrouver tout les codes du projet (dont le css) dans la partie "Projet" sur GitHub.
+
+## Site responsive (page adaptable à tout type d'écran) :
+
+La vm est disponible dans la partie "VM" sur GitHub via un lien de téléchargement Google drive si vous souhaitez la télécharger pour l'explorer plus en détail.
 
 
 ## Installation
