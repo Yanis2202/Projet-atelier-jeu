@@ -200,12 +200,11 @@ Pour installer et exécuter ce projet, suivez les étapes suivantes :
 * Ajouter un système de notification par email.
 * Mettre en place un système de recherche et de filtrage plus avancé pour les tickets.
 * Intégrer une base de connaissances pour aider à la résolution des problèmes courants.
+## Participant du projet : 
 
-## Auteur
-
-Votre Nom
+Tanquerel Yanis / Thibaut Mélanie / Sueur Lucas
 
 ## Grille d'évaluation
 
-Voici la grille d'évaluation utilisée pour ce projet :
+Voici la grille d'évaluation utilisée pour ce projet, nous avons réaliser le niveau 2 uniquement :
 
