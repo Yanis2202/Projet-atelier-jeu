@@ -130,6 +130,20 @@ Cette page offre aux techniciens une vue détaillée de chaque ticket de demande
 
 <br>
 
+## Système de logs
+
+Pour assurer la traçabilité des actions de tout les membres du service (utilisateur, technicien,etc.), notamment ceux de la création de demandes d'assistance, un système de logs a été intégré.  Cela implique l'enregistrement des événements dans un fichier.
+
+La page "Historique des actions (Logs)" permet de consulter ces enregistrements.  L'image montre qu'aucun log n'a encore été ajouté. Elle propose les actions suivantes :
+
+* **Affichage des logs :** Visualisation des événements enregistrés (date, utilisateur, action, etc.).
+* **Vider les logs :** Fonctionnalité pour supprimer les logs (nécessite d'être connecté en tant que technicien et d'avoir une confirmation après d'un supérieur pour éviter la perte d'informations importantes).
+* **Retour au tableau de bord :** Navigation direct vers la page principale d'administration.
+
+[Image](./images/image.png) *(Page d'affichage des logs)*
+
+<br>
+
 ## Sécurité
 
 L'accès à la gestion des tickets est sécurisé pour que seuls les techniciens puissent y accéder[cite: 11].
