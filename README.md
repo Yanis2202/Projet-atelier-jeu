@@ -22,7 +22,7 @@ Le logiciel "Support Service" offre les fonctionnalités suivantes (Niveau 2 du 
 * **Page de demande d'assistance pour les utilisateurs avec vérification de fausses adresse mail et confirmation de demande enregistré**. (Un menu déroulant permet de catégoriser la demande d'assistance selon le problème, le signe "@" dois être mentionné pour pouvoir valider la demande d'assistance puis enfin, un message de confirmation apparaît pour valider l'envoie de la demande).
 * **Page de création et connexion vers compte de technicien** (pour ajourter facilement les nouveau technicien et leurs permettre de ce connecter).
 * **Panneau d'administration** (présente les tickets avec leurs statuts (avec couleurs rouge ou vert), organisé selon le type de demande d'assistance ; Possibilité de modifier le statut d'un ticket en un clic depuis le panneau d'administration)). 
-* **Page de consultation et modification d'un ticket** (détail et modification du status). FINIS ICI !
+* **Page de consultation et modification d'un ticket** (détail et modification du status).
 * **Mise en place d'un système de log** (pour identifier les créateur de demmande d'assistance).
 * **Mise en place d'un système de sécurité** (afin d'éviter les piratages ou virus).
 * **Mise en page propre et soignée** (utilisation du CSS).
@@ -166,6 +166,9 @@ Afin de renforcer la sécurité et de prévenir les piratages et virus, plusieur
 
 
 <br>
+
+## Mise en page propre et soignée (utilisation du CSS) :
+Vous pouvez retrouver tout les codes du projet (dont le css) dans la partie de GitHub
 
 
 ## Installation
